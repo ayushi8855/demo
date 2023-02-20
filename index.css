@@ -31,7 +31,7 @@ p{
     font-weight: bolder;
     margin-top: -5%;
 }
-#email,#mob{
+#email,#mob,#name{
     width: 80%;
     height: 40px;
     padding: 1%;
