@@ -16,8 +16,11 @@ function submit(event){
     console.log(mydata)
    localStorage.setItem("data", mydata);
    webengage.user.login(email); //9SBOkLVMWvPX is the unique user identifier being used here
-  webengage.user.setAttribute('we_email', email);
-  webengage.user.setAttribute('we_phone', mobile);
+   webengage.user.setAttribute('we_email', email);
+   webengage.user.setAttribute('we_phone', mobile);
 //    window.location="thank.html"
+webengage.track("talk to us" ,{
+  "time":Date.now()
+})
   
 }
